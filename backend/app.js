@@ -11,7 +11,7 @@ dotenv.config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: ["https://my-portfolio-mern-taupe.vercel.app/"],
+    origin: ["https://my-portfolio-mern-taupe.vercel.app"],
     methods: ["POST"],
     credentials: true,
   })
