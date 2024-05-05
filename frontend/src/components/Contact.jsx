@@ -11,7 +11,7 @@ const Contact = () => {
 
     const handleSendMessage = async (e) => {
         e.preventDefault();
-        await axios.post("http://localhost:3000/api/v1/message/send", {
+        await axios.post("https://my-portfolio-mern-backend.vercel.app/api/v1/message/send", {
             name,
             email,
             message,
