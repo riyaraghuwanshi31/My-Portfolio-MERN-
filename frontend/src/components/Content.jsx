@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Router } from 'react-router-dom';
 
 import Contact from "./Contact";
+import Connect from "./Connect";
+
 
 const Content = () => {
   return (
@@ -21,11 +23,7 @@ const Content = () => {
               </h5>
             </div>
 
-            <div>
-              <div className="right">
-                <Link to="/Menu"> MENU</Link>
-              </div>
-            </div>
+            
 
           </nav>
         </header>
@@ -57,62 +55,119 @@ const Content = () => {
       </section>
 
 
-      <section id='skills'>
-        <div id='item-1' className="sk">
+      <section id="skills">
+
+        <div id="item-1" class="sk">
+
           <h1>Skills</h1>
 
           <ul>
-            <div className="Skill">
+            <div class="Skill">
               <h4>Java</h4>
-              <div className="cont">
+              <div class="cont">
                 I possess extensive proficiency in Java and Data Structures <br></br>
                 and Algorithms (DSA), bolstered by my certification from Apna College's <br></br>
                 Alpha batch program, which encompasses a comprehensive<br></br> Java + DSA curriculum.
               </div>
             </div>
-            <div className="Skill">
-              <h4>Javascript</h4>
-              <div className="cont">
-                I have a foundational grasp of JavaScript, which I've <br></br> demonstrated
-                through my involvement in numerous projects.
-              </div>
-            </div>
-            <div className="Skill">
-              <h4>HTML</h4>
-              <div className="cont">
-                I possess a solid foundation in HTML and CSS,which I've effectively <br></br>
-                demonstrated through various project showcases. My web designs are <br></br> known
-                for their visually appealing and engaging aesthetics. Additionally,
-                <h3 className="hightlighted"> I have acquired proficiency in Bootstrap to enhance my web
-                  development <br></br>capabilities. </h3>
-              </div>
-            </div>
 
-            <div className="Skill">
+
+            <div class="SkillO">
               <h4>C/C++</h4>
 
-              <div className="cont">
+              <div class="cont">
                 At the outset of my coding journey, I honed my skills in C and C++, <br></br>
                 which served as a solid springboard for building my foundation.
               </div>
             </div>
 
+
+
+
+            <div class="Skill">
+              <h4>HTML and CSS</h4>
+              <div class="cont">
+                I possess a solid foundation in HTML and CSS,which I've effectively <br></br>
+                demonstrated through various project showcases. My web designs are <br></br> known
+                for their visually appealing and engaging aesthetics. Additionally,
+                <h3 class="hightlighted"> I have acquired proficiency in Bootstrap to enhance my web
+                  development <br></br> capabilities. </h3>
+              </div>
+            </div>
+
+
+
+            <div class="SkillO">
+              <h4>Javascript</h4>
+              <div class="cont">
+                I have a foundational grasp of JavaScript, which I've <br></br> demonstrated
+                through my involvement in numerous projects.
+              </div>
+            </div>
+
+
+
+
+
+            <div class="Skill">
+              <h4>MongoDB</h4>
+              <div class="cont">
+                I have extensive proficiency in MongoDB and am currently utilizing <br></br> it in numerous projects as the primary database. Additionally, this portfolio also <br></br> showcases projects that utilize MongoDB.
+              </div>
+            </div>
+
+
+
+
+
+
+            <div class="SkillO">
+              <h4>React</h4>
+
+              <div class="cont">
+
+
+                I have a foundational understanding of React and am currently focused on <br></br> deepening my knowledge. I am actively engaged in various React projects to <br></br> enhance my skills.
+              </div>
+            </div>
+
+
           </ul>
+
+          <div id='iconD'>
+
+            <div>
+              <ul className='iconUL' id='ul1'>
+                <li><img src="javaL.png" alt="" /></li>
+                <li><img src="JsL.png" alt="" /></li>
+                <li><img src="htmlL.png" alt="" /></li>
+                <li><img src="CSSL.png" alt="" /></li>
+                <li><img src="bootstrapL.png" alt="" /></li>
+              </ul>
+            </div>
+
+
+            <div>
+              <ul className='iconUL' id='ul2'>
+                <li><img src="mongo.png" alt="" /></li>
+                <li><img src="react.png" alt="" /></li>
+                <li><img src="C++L.png" alt="" /></li>
+                <li><img className='clogo' src="CL.png" alt="" /></li>
+              </ul>
+
+            </div>
+
+          </div>
+
+
         </div>
 
-        <div id="item-2">
-          <div className="SkLogo"><img src="/javaL.png" alt="java Logo"></img></div>
-          <div className="SkLogo"><img src="/JsL.png" alt="Js logo"></img></div>
-          <div className="SkLogo"><img src="/htmlL.png" alt="HTML logo"></img></div>
-
-        </div>
-
-        <div id="item-3">
-          <div className="SkLogo"><img src="/CSSL.png" alt="CSS logo"></img></div>
-          <div className="SkLogo"><img src="/bootstrapL.png" alt="Bootstrap logo"></img></div>
-          <div className="SkLogo"><img src="/C++L.png" alt="C++ logo"></img></div>
-        </div>
       </section>
+
+
+
+
+
 
 
       <section id="Achievements">
@@ -196,7 +251,7 @@ const Content = () => {
           <h1>Projects</h1>
 
           <div className="projFlex">
-            <div clasNames="p1">
+            <div className="p1">
               <div className="Pimg">
                 <img src="/Avatarnew.png" alt="Image" className="projImg"></img>
               </div>
@@ -205,15 +260,44 @@ const Content = () => {
                 <div className="detail"></div>
 
               </div>
+            </div>
+
+            <div className="p1">
+              <div className="Pimg">
+                <img src="/APNA DABBA logo smal.png" alt="Image" className="projImg"></img>
+              </div>
+              <div className="projDes">
+                <h2> <a href="https://riyaraghuwanshi31.github.io/Apna-Dabba-Repl/"  target= "_blank" className="projName" >Apna Dabba</a></h2>
+                <div className="detail"></div>
+
+              </div>
 
             </div>
+
+            <div className="p1">
+              <div className="Pimg">
+                <img src="/logo.png" alt="Image" className="projImg" id="apnacollege"></img>
+              </div>
+              <div className="projDes">
+                <h2><a href="https://riyaraghuwanshi31.github.io/Safe-Campus-360/" target= "_blank" className="projName">Safe Campus 360</a></h2>
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+
+          <div className="projFlex">
+
 
             <div className="p1">
               <div className="Pimg">
                 <img src="/final logo apna college.png" alt="Image" className="projImg" id="apnacollege"></img>
               </div>
               <div className="projDes">
-                <h2><a href="https://apna-college.riyaraghuwanshi.repl.co/" className="projName">Educational
+                <h2><a href="https://riyaraghuwanshi31.github.io/Apna-College-Website-Educational-Website-/  " target= "_blank" className="projName">Educational
                   Website</a></h2>
 
 
@@ -221,39 +305,32 @@ const Content = () => {
 
             </div>
 
-
             <div className="p1">
               <div className="Pimg">
                 <img src="/onlineSite.png" alt="Image" className="projImg"></img>
               </div>
               <div className="projDes">
-                <h2><a href="https://online-shopping-site-1.riyaraghuwanshi.repl.co/ "
-                  className="projName">Online shopping website(Front-End)</a></h2>
-
-
+                <h2><a href=""  target= "_blank"
+                  className="projName">Online shopping website</a></h2>
               </div>
             </div>
+
+
+
+
           </div>
+
+
         </div>
       </section>
-    
-    <Contact/>
 
-      <section id="conFoot">
+      <Contact />
 
-        <footer className="footer">
-          <h1 id="headCon">Connect with me</h1>
-          <div className="connLogo">
-            <div className="connN"> <a href="https://www.linkedin.com/in/riya-raghuwanshi-92185624b/"> <img className='footImg1' src="/linkdinNew.png" alt="" /> </a></div>
-            <div className ="connN"><a href="https://github.com/riyaraghuwanshi31"><img className ="footImg2"
-              src="/githubLogo.png" alt=""></img></a></div>
-
-            <div className="connN"><a href=""> <img className='footImg3' src="/twitterLogo.png" alt="" /></a></div>
-          </div>
-
-        </footer>
+      <section id='conBg'>
+        <Connect />
 
       </section>
+
 
     </div >
 
