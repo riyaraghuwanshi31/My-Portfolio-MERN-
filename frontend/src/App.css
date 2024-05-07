@@ -14,7 +14,7 @@ body {
 model-viewer {
   position: fixed;
   width: 100%;
- /* max-width: 100vw; */
+  /* max-width: 100vw; */
   /*  width: 2000px; */
   height: 1500px;
   background-color: #241d35ca;
@@ -68,18 +68,18 @@ nav {
 
 @keyframes trans {
   from {
-      font-size: 25px;
-      align-items: center;
-      width: 90%;
-      height: 50px;
+    font-size: 25px;
+    align-items: center;
+    width: 90%;
+    height: 50px;
   }
 
   to {
-      font-size: 35px;
-      align-items: center;
-      padding-top: 50px;
-      width: 90%;
-      height: 1100px;
+    font-size: 35px;
+    align-items: center;
+    padding-top: 50px;
+    width: 90%;
+    height: 1100px;
   }
 }
 
@@ -90,8 +90,8 @@ nav {
   margin: 0 auto;
   text-align: center;
   animation:
-      typing 3.5s steps(30, end),
-      blink-caret .5s step-end infinite;
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
 }
 
 .logo {
@@ -123,17 +123,17 @@ main {
 /*Animation*/
 #threewords {
   animation: animated-text 2s steps(10, end) 1s 1 normal both;
-  
+
 }
 
 
 @keyframes animated-text {
   from {
-      width: 0%;
+    width: 0%;
   }
 
   to {
-      width: 100%;
+    width: 100%;
   }
 }
 
@@ -150,7 +150,7 @@ main {
   text-decoration: none;
   font-size: 50px;
   font-weight: 600;
-  
+
 }
 
 #name:hover {
@@ -167,11 +167,11 @@ main {
 /* The typing effect */
 @keyframes typing {
   from {
-      width: 0
+    width: 0
   }
 
   to {
-      width: 100%
+    width: 100%
   }
 }
 
@@ -180,11 +180,11 @@ main {
 
   from,
   to {
-      border-color: transparent
+    border-color: transparent
   }
 
   50% {
-      border-color: rgba(233, 225, 218, 0.937);
+    border-color: rgba(233, 225, 218, 0.937);
   }
 }
 
@@ -199,13 +199,17 @@ h1 {
 
 
 
-/* ********************* SKILLS ******************************/
+/* ********************* SKILLS ***************************** */
+
+
 .container {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
   width: 100%;
 }
+
+
 
 section {
   height: 100vh;
@@ -214,8 +218,7 @@ section {
 }
 
 #skills {
-  display: grid;
-  grid-template-columns: 40% 30% 15% 15%;
+
   background-color: rgba(32, 29, 33, 0.859);
 }
 
@@ -294,11 +297,15 @@ h4 {
   font-size: 15px;
 }
 
-/*Skills Logo*/
 
 img {
   width: 100px;
   height: 100px;
+}
+
+
+#skillSec {
+  height: 220vh;
 }
 
 
@@ -418,11 +425,11 @@ img {
 
 @keyframes RotateDiv {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -499,9 +506,9 @@ img {
   mix-blend-mode: difference;
   border-image: repeating-linear-gradient(135deg, #9900f8bd 0 10px, #352e7eb5 0 20px, #9915bdb6 0 30px) 8;
   -webkit-mask:
-      conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
-      conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,
-      linear-gradient(#000 0 0) padding-box no-repeat;
+    conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
+    conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,
+    linear-gradient(#000 0 0) padding-box no-repeat;
   transition: .3s, -webkit-mask-position .3s .3s;
 }
 
@@ -585,7 +592,7 @@ img {
 .sk h1 {
   margin: 0;
   color: rgba(255, 241, 241, 0.25);
-  background-image: url("../images/projBg7.avif");
+  background-image: url("../public/projBg7.avif");
   background-repeat: repeat;
   -webkit-background-clip: text;
   animation: animate 15s ease-in-out infinite;
@@ -595,7 +602,7 @@ img {
 }
 
 .projHead h1 {
-  font-size: 130px;
+  font-size: 100px;
 }
 
 
@@ -623,19 +630,19 @@ img {
 
   0%,
   100% {
-      background-position: left top;
+    background-position: left top;
   }
 
   25% {
-      background-position: right bottom;
+    background-position: right bottom;
   }
 
   50% {
-      background-position: left bottom;
+    background-position: left bottom;
   }
 
   75% {
-      background-position: right top;
+    background-position: right top;
   }
 }
 
@@ -717,7 +724,7 @@ img {
   box-shadow: 2px -2px 2px rgb(205, 196, 205);
 }
 
-.send{
+.send {
   margin: auto;
 }
 
@@ -803,171 +810,167 @@ img {
 /*       RESPONSIVENESS         */
 @media only screen and (min-width: 481px) and (max-width: 800px) {
   .right {
-      font-size: 8px;
+    font-size: 8px;
   }
 
   .transition1 {
-      font-size: 15px;
+    font-size: 15px;
   }
 
   .transition1:hover {
-      font-size: 15px;
+    font-size: 15px;
   }
 
   nav ul {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   #name {
-      font-size: 30px;
+    font-size: 30px;
   }
 
   #threewords {
-      margin-left: 30px;
-      margin-top: 200px;
-      font-size: 20px;
+    margin-left: 30px;
+    margin-top: 200px;
+    font-size: 20px;
   }
 
 
   /*Intro*/
   .Card {
-      margin: 5%;
+    margin: 5%;
   }
 
   .Card #cIntro {
-      font-size: 90px;
+    font-size: 90px;
   }
 
 
 
   model-viewer {
-      padding-top: 50px;
-      /*   width: 1000px;  */
-      height: 1400px;
-      size: 500px;
+    padding-top: 50px;
+    /*   width: 1000px;  */
+    height: 1400px;
+    size: 500px;
   }
 
   h4 {
-      font-size: 23px;
+    font-size: 23px;
   }
 
   .Skill,
   .Skill1 {
-      width: 400px;
-      font-size: 15px;
-      height: 80px;
-      margin-left: 1px;
+    width: 400px;
+    font-size: 15px;
+    height: 80px;
+    margin-left: 1px;
   }
 
   .Skill {
-      width: 350px;
+    width: 350px;
 
   }
 
 
 
   .Skill h4 {
-      font-size: 15px;
+    font-size: 15px;
   }
 
   .cont {
-      font-size: 5px;
-      text-align: justify;
+    font-size: 5px;
+    text-align: justify;
   }
 
 
 
-  #skills {
-      grid-template-columns: 20% 50% 20% 10%;
-      grid-template-rows: 110px 250px 250px;
 
-  }
 
   #item-2 {
-      margin: 0px;
-      padding: 0px;
+    margin: 0px;
+    padding: 0px;
 
-      grid-column-start: 3;
-      grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-start: 2;
 
   }
 
   #item-3 {
-      margin: 0px;
-      padding: 0px;
+    margin: 0px;
+    padding: 0px;
 
-      grid-column-start: 3;
-      grid-row-start: 3;
+    grid-column-start: 3;
+    grid-row-start: 3;
   }
 
   .SkLogo,
   .SkLogo img {
-      width: 60px;
-      height: 60px;
+    width: 60px;
+    height: 60px;
   }
 
   /*Achievements*/
 
 
   #item1 {
-      grid-column-start: 1;
+    grid-column-start: 1;
   }
 
   .AchCont {
-      font-size: 8px;
-      text-align: justify;
-      padding-left: 10px;
-      word-spacing: none;
+    font-size: 8px;
+    text-align: justify;
+    padding-left: 10px;
+    word-spacing: none;
   }
 
 
 
   .items h2 {
-      font-size: 15px;
-      padding-top: 2px;
+    font-size: 15px;
+    padding-top: 2px;
   }
 
 
   h1 {
-      padding-top: 10px;
+    padding-top: 10px;
   }
 
   .cont {
-      margin-left: 1px;
-      font-size: 10px;
-      text-align: left;
+    margin-left: 1px;
+    font-size: 10px;
+    text-align: left;
   }
 
   .hightlighted {
-      font-size: 9px;
-      font-weight: 700;
+    font-size: 9px;
+    font-weight: 700;
 
   }
 
 
   /*Projects*/
   .projImg {
-      width: 80px;
-      height: 80px;
+    width: 80px;
+    height: 80px;
   }
 
   .projName {
-      font-size: 15px;
-      padding-left: 0px;
+    font-size: 15px;
+    padding-left: 0px;
   }
 
   .p1 {
-      width: 25%;
-      margin: 4%;
+    width: 25%;
+    margin: 4%;
   }
 
   .projDes {
-      margin: 12px;
+    margin: 12px;
   }
 
   .projHead h1 {
-     
-      font-size: 85px;
+
+    font-size: 85px;
 
   }
 
@@ -975,20 +978,20 @@ img {
 
   /*Contact*/
   .form {
-      margin: 10%;
-      width: 80%;
-      margin-top: 10%;
-     
+    margin: 10%;
+    width: 80%;
+    margin-top: 10%;
+
   }
 
   .btn {
-      width: 50px;
+    width: 50px;
   }
 
 
   /*Connect with me*/
   .connLogo {
-      margin: auto;
+    margin: auto;
   }
 
 }
@@ -998,43 +1001,43 @@ img {
   .Skill,
   .Skill1 {
 
-      width: 600px;
-      font-size: 20px;
-      height: 100px;
-      margin-left: 1px;
+    width: 600px;
+    font-size: 20px;
+    height: 100px;
+    margin-left: 1px;
   }
 
   .cont {
-      margin-left: 1px;
-      font-size: 15px;
-      text-align: left;
+    margin-left: 1px;
+    font-size: 15px;
+    text-align: left;
   }
 
   .hightlighted {
-      font-size: 14px;
-      font-weight: 700;
+    font-size: 14px;
+    font-weight: 700;
 
   }
 
   #skills {
-      margin: 20px;
+    margin: 20px;
   }
 
 
   model-viewer {
-      padding-top: 50px;
-      /*  width: 1500px;  */
-      height: 1400px;
-      size: 500px;
+    padding-top: 50px;
+    /*  width: 1500px;  */
+    height: 1400px;
+    size: 500px;
   }
 
   h1 {
-      padding-top: 70px;
+    padding-top: 70px;
   }
 
   .projHead h1 {
-      
-      font-size: 90px;
+
+    font-size: 90px;
 
   }
 
@@ -1045,186 +1048,182 @@ img {
 
   /*Intro*/
   .Card {
-      margin: 2px;
+    margin: 2px;
   }
 
   .Card #cIntro {
-      font-size: 60px;
+    font-size: 60px;
   }
 
   /*Skills*/
-  #skills {
-      grid-template-columns: 20% 20% 20% 15%;
-      grid-template-rows: 80px 500px 200px;
 
-  }
 
   #item-2 {
-      margin: 0px;
-      padding: 0px;
+    margin: 0px;
+    padding: 0px;
 
-      grid-column-start: 2;
-      grid-row-start: 3;
+    grid-column-start: 2;
+    grid-row-start: 3;
 
   }
 
   #item-3 {
-      margin: 0px;
-      padding: 0px;
+    margin: 0px;
+    padding: 0px;
 
-      grid-column-start: 3;
-      grid-row-start: 3;
+    grid-column-start: 3;
+    grid-row-start: 3;
   }
 
   .SkLogo,
   .SkLogo img {
-      width: 50px;
-      height: 50px;
+    width: 50px;
+    height: 50px;
   }
 
 
   /*Achievements*/
   #Achievements {
-      grid-template-rows: 80px 280px 280px;
-      grid-template-columns: 1% 29% 29% 29% 1%;
-      gap: 2%;
+    grid-template-rows: 80px 280px 280px;
+    grid-template-columns: 1% 29% 29% 29% 1%;
+    gap: 2%;
   }
 
   #ach {
 
-      font-size: 50px;
-      font-weight: 300;
-      padding: 5px;
+    font-size: 50px;
+    font-weight: 300;
+    padding: 5px;
   }
 
   .items h2 {
-      font-size: 10px;
-      text-align: justify;
+    font-size: 10px;
+    text-align: justify;
   }
 
   .AchCont {
-      font-size: 7px;
+    font-size: 7px;
   }
 
 
   #item1 {
-      grid-column-start: 1;
+    grid-column-start: 1;
   }
 
 
 
   /*Project*/
   .projHead h3 {
-      font-size: 30px;
+    font-size: 30px;
 
   }
 
   .projHead h1 {
-      padding: 10px;
-      font-size: 55px;
+    padding: 10px;
+    font-size: 55px;
   }
 
   .projImg {
-      width: 70px;
-      height: 70px;
-      margin: 2px;
-      padding: 2px;
+    width: 70px;
+    height: 70px;
+    margin: 2px;
+    padding: 2px;
   }
 
   .projName {
-      font-size: 10px;
+    font-size: 10px;
   }
 
   .projDes {
-      margin: 2px;
+    margin: 2px;
   }
 
 
   /*Contact*/
   .mb-3 {
-      margin-top: 30px;
+    margin-top: 30px;
   }
 
   .btn {
-      width: 60px;
-      
+    width: 60px;
+
   }
 
   .form {
-      margin: auto;
-      width: 80%;
+    margin: auto;
+    width: 80%;
 
   }
 
   .connectHead {
-      padding: 5px;
+    padding: 5px;
   }
 
-  .send{
-      margin-left: 50%;
+  .send {
+    margin-left: 50%;
   }
- 
+
 
   /*Connect*/
   .connLogo {
-      margin-left: 2px;
+    margin-left: 2px;
   }
 
   .transition1 {
-      font-size: 8px;
+    font-size: 8px;
   }
 
   .transition1:hover {
-      font-size: 10px;
+    font-size: 10px;
   }
 
   nav ul {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   #threewords {
-      font-size: 10px;
-      margin-top: 300px;
+    font-size: 10px;
+    margin-top: 300px;
   }
 
   #name {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   .logo {
-      width: 70px;
-      height: 70px;
+    width: 70px;
+    height: 70px;
   }
 
   model-viewer {
-      padding-top: 30px;
-      /*  width: 700px;*/
-      height: 1300px;
+    padding-top: 30px;
+    /*  width: 700px;*/
+    height: 1300px;
   }
 
   .Skill,
   .Skill1 {
-      width: 355px;
-      font-size: 20px;
-      height: 80px;
-      margin-left: 1px;
+    width: 355px;
+    font-size: 20px;
+    height: 80px;
+    margin-left: 1px;
 
   }
 
   h1 {
-      font-size: 40px;
-      padding-top: 150px;
+    font-size: 40px;
+    padding-top: 150px;
   }
 
   .cont {
-      margin-left: 1px;
-      font-size: 9px;
-      text-align: left;
+    margin-left: 1px;
+    font-size: 9px;
+    text-align: left;
   }
 
   .hightlighted {
-      font-size: 8px;
-      font-weight: 700;
+    font-size: 8px;
+    font-weight: 700;
   }
 }
 
@@ -1248,7 +1247,7 @@ body {
 model-viewer {
   position: fixed;
   width: 100%;
- /* max-width: 100vw; */
+  /* max-width: 100vw; */
   /*  width: 2000px; */
   height: 1500px;
   background-color: #241d35ca;
@@ -1302,18 +1301,18 @@ nav {
 
 @keyframes trans {
   from {
-      font-size: 25px;
-      align-items: center;
-      width: 90%;
-      height: 50px;
+    font-size: 25px;
+    align-items: center;
+    width: 90%;
+    height: 50px;
   }
 
   to {
-      font-size: 35px;
-      align-items: center;
-      padding-top: 50px;
-      width: 90%;
-      height: 1100px;
+    font-size: 35px;
+    align-items: center;
+    padding-top: 50px;
+    width: 90%;
+    height: 1100px;
   }
 }
 
@@ -1324,8 +1323,8 @@ nav {
   margin: 0 auto;
   text-align: center;
   animation:
-      typing 3.5s steps(30, end),
-      blink-caret .5s step-end infinite;
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
 }
 
 .logo {
@@ -1357,17 +1356,17 @@ main {
 /*Animation*/
 #threewords {
   animation: animated-text 2s steps(10, end) 1s 1 normal both;
-  
+
 }
 
 
 @keyframes animated-text {
   from {
-      width: 0%;
+    width: 0%;
   }
 
   to {
-      width: 100%;
+    width: 100%;
   }
 }
 
@@ -1384,7 +1383,7 @@ main {
   text-decoration: none;
   font-size: 50px;
   font-weight: 600;
-  
+
 }
 
 #name:hover {
@@ -1401,11 +1400,11 @@ main {
 /* The typing effect */
 @keyframes typing {
   from {
-      width: 0
+    width: 0
   }
 
   to {
-      width: 100%
+    width: 100%
   }
 }
 
@@ -1414,11 +1413,11 @@ main {
 
   from,
   to {
-      border-color: transparent
+    border-color: transparent
   }
 
   50% {
-      border-color: rgba(233, 225, 218, 0.937);
+    border-color: rgba(233, 225, 218, 0.937);
   }
 }
 
@@ -1448,30 +1447,12 @@ section {
 }
 
 #skills {
-  display: grid;
-  grid-template-columns: 40% 30% 15% 15%;
+
+
   background-color: rgba(32, 29, 33, 0.859);
+  height: 250vh;
 }
 
-#item-1 {
-
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-#item-2 {
-  padding-left: 50px;
-  padding-top: 200px;
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
-
-#item-3 {
-  padding-left: 50px;
-  padding-top: 200px;
-  grid-column-start: 4;
-  grid-column-end: -1;
-}
 
 .SkLogo {
   background-color: rgba(0, 0, 0, 0.661);
@@ -1496,7 +1477,7 @@ section {
   margin: 25px;
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
-  width: 700px;
+  width: 60%;
   height: 115px;
   font-size: 25px;
   padding-top: 2px;
@@ -1505,6 +1486,24 @@ section {
 
 }
 
+.SkillO {
+  background-color: #cebfe9bb;
+  margin: 25px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 60%;
+  height: 115px;
+  font-size: 25px;
+  padding-top: 2px;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 35%;
+  align-items: center;
+}
+
+ .Skill h4, .SkillO h4{
+    font-size: 18px;
+ }
 
 .cont {
   color: rgb(233, 225, 218);
@@ -1519,21 +1518,58 @@ section {
   animation: animated-text 2s steps(25, end) 1s 1 normal both;
 }
 
-h4 {
+h4   {  
   color: rgb(209, 183, 224);
 
-}
+} 
 
 .hightlighted {
   font-size: 15px;
-}
+}  
 
 /*Skills Logo*/
 
-img {
-  width: 100px;
-  height: 100px;
+
+
+.iconUL li {
+  list-style: none;
+  display: inline-block;
+  border-radius: 100px;
+  box-shadow: 0px 10px 35px rgba(180, 76, 228, 0.87);
+  margin: 20px;
 }
+
+.iconUL {
+  display: inline-block;
+  
+}
+
+#iconD {
+
+  text-align: center;
+  padding: 7%;
+}
+
+.iconUL li img {
+  height: 90px;
+  width: 90px;
+  padding: 25px;
+  
+}
+
+
+.iconUL li img:hover{
+  height: 120px;
+  width: 120px;
+
+}
+
+.iconUL li:hover{
+  box-shadow: 0px 10px 35px rgba(108, 216, 228, 0.788);
+}
+
+
+/* Icons of skillss*/
 
 
 
@@ -1652,11 +1688,11 @@ img {
 
 @keyframes RotateDiv {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -1733,9 +1769,9 @@ img {
   mix-blend-mode: difference;
   border-image: repeating-linear-gradient(135deg, #9900f8bd 0 10px, #352e7eb5 0 20px, #9915bdb6 0 30px) 8;
   -webkit-mask:
-      conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
-      conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,
-      linear-gradient(#000 0 0) padding-box no-repeat;
+    conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
+    conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,
+    linear-gradient(#000 0 0) padding-box no-repeat;
   transition: .3s, -webkit-mask-position .3s .3s;
 }
 
@@ -1819,7 +1855,7 @@ img {
 .sk h1 {
   margin: 0;
   color: rgba(255, 241, 241, 0.25);
-  background-image: url("../images/projBg7.avif");
+  background-image: url("projBg7.avif");
   background-repeat: repeat;
   -webkit-background-clip: text;
   animation: animate 15s ease-in-out infinite;
@@ -1829,7 +1865,8 @@ img {
 }
 
 .projHead h1 {
-  font-size: 130px;
+  font-size: 80px;
+  padding: 0px;
 }
 
 
@@ -1847,40 +1884,38 @@ img {
   width: 280px;
 }
 
-
-
 .projHead h3 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 @keyframes animate {
 
   0%,
   100% {
-      background-position: left top;
+    background-position: left top;
   }
 
   25% {
-      background-position: right bottom;
+    background-position: right bottom;
   }
 
   50% {
-      background-position: left bottom;
+    background-position: left bottom;
   }
 
   75% {
-      background-position: right top;
+    background-position: right top;
   }
 }
 
 
 .projFlex {
   display: flex;
+  margin: 20px 0px
 }
 
 .p1 {
-
-  width: 20%;
+  width: 18%;
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -1888,6 +1923,7 @@ img {
   border-radius: 50px;
   box-shadow: 2px 2px 2px rgb(212, 155, 212);
   animation: mymove 10s infinite;
+  height: 220px;
 }
 
 .p1:hover {
@@ -1896,14 +1932,14 @@ img {
 }
 
 
-
 .projImg {
-  width: 75%;
-  height: 200px;
+  width: 65%;
+  height: 120px;
   align-items: center;
-  margin: 36px;
+  margin: 20px;
   margin-bottom: 0px;
   border-radius: 30px;
+  text-align: center;
 
 }
 
@@ -1913,16 +1949,24 @@ img {
   text-align: center;
 }
 
+
+
 #apnacollege {
   background-color: #12171f8d;
 }
 
 .projName {
   color: #673785bd;
+  font-size: 20px;
 }
 
 .projName:hover {
   color: plum;
+}
+
+.Pimg {
+  text-align: center;
+
 }
 
 /*******************************Connect*******************************************/
@@ -1951,19 +1995,21 @@ img {
   box-shadow: 2px -2px 2px rgb(205, 196, 205);
 }
 
-.send{
+.send {
   margin: auto;
 }
 
 .mb-3 {
   margin: 40px;
+  align-items: center;
+  text-align: center;
 }
 
 
 .form-label {
   font-size: 20px;
-  margin: 4%;
-  margin-left: 60px;
+  margin: 1%;
+  margin-left: 0px;
   padding: 2px;
   color: #0f1319;
   font-weight: 700;
@@ -1975,59 +2021,33 @@ img {
   background-color: #d6d1dea3;
   border: 0px;
   padding: 4px;
+  border-radius: 10px;
+
+}
+
+.msg {
+  width: 47%;
 
 }
 
 
 
 .send {
-  background-color: #2d165892;
-  border-radius: 5px;
+  background-color: #a5a2e7bb;
+  border-radius: 10px;
   width: 60px;
   padding: 3px;
   font-size: 20px;
   margin-left: 50%;
+  border: 0;
 
 }
 
 /**************************Connect with me**********************************/
 
-
-.footer {
-  display: block;
-  padding-top: 150px;
-
+#conBg {
+  background-color: #0f1319;
 }
-
-#conFoot {
-  background-color: #2d213c;
-}
-
-#headCon {
-  margin: auto;
-  text-align: center;
-  justify-content: center;
-  position: relative;
-
-}
-
-.connLogo {
-  display: flex;
-  margin-left: 30%;
-}
-
-.connN {
-  background-color: #a39dae92;
-  margin: 5%;
-  padding: 5px;
-  border-radius: 100%;
-}
-
-.footImg1 {
-  width: 90%;
-  padding-left: 5%;
-}
-
 
 
 
@@ -2037,171 +2057,188 @@ img {
 /*       RESPONSIVENESS         */
 @media only screen and (min-width: 481px) and (max-width: 800px) {
   .right {
-      font-size: 8px;
+    font-size: 8px;
   }
 
   .transition1 {
-      font-size: 15px;
+    font-size: 15px;
   }
 
   .transition1:hover {
-      font-size: 15px;
+    font-size: 15px;
   }
 
   nav ul {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   #name {
-      font-size: 30px;
+    font-size: 30px;
   }
 
   #threewords {
-      margin-left: 30px;
-      margin-top: 200px;
-      font-size: 20px;
+    margin-left: 30px;
+    margin-top: 200px;
+    font-size: 20px;
   }
 
 
   /*Intro*/
   .Card {
-      margin: 5%;
+    margin: 5%;
   }
 
   .Card #cIntro {
-      font-size: 90px;
+    font-size: 90px;
   }
 
 
 
   model-viewer {
-      padding-top: 50px;
-      /*   width: 1000px;  */
-      height: 1400px;
-      size: 500px;
+    padding-top: 50px;
+    /*   width: 1000px;  */
+    height: 1400px;
+    size: 500px;
   }
 
   h4 {
-      font-size: 23px;
+    font-size: 23px;
   }
 
   .Skill,
-  .Skill1 {
-      width: 400px;
-      font-size: 15px;
-      height: 80px;
-      margin-left: 1px;
-  }
-
-  .Skill {
-      width: 350px;
+  .Skill1,
+  .SkillO {
+    
+    font-size: 15px;
+    height: 80px;
+    margin-left: 1px;
+    width: 75%;
 
   }
+
+
+  .SkillO{
+    margin-left: 20%;
+  }
+
+
+  /* Skills icon */
+
+  .iconUL li {
+    
+    
+    margin: 10px;
+  }
+  
+  
+  #iconD {
+  
+  
+    padding: 5%;
+  }
+  
+  .iconUL li img {
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    
+  }
+  
+  
+  .iconUL li img:hover{
+    height: 60px;
+    width: 60px;
+  
+  }
+  
+  
+  
 
 
 
   .Skill h4 {
-      font-size: 15px;
+    font-size: 15px;
   }
 
   .cont {
-      font-size: 5px;
-      text-align: justify;
+    font-size: 5px;
+    text-align: justify;
   }
 
 
+  
 
-  #skills {
-      grid-template-columns: 20% 50% 20% 10%;
-      grid-template-rows: 110px 250px 250px;
 
-  }
-
-  #item-2 {
-      margin: 0px;
-      padding: 0px;
-
-      grid-column-start: 3;
-      grid-row-start: 2;
-
-  }
-
-  #item-3 {
-      margin: 0px;
-      padding: 0px;
-
-      grid-column-start: 3;
-      grid-row-start: 3;
-  }
+ 
 
   .SkLogo,
   .SkLogo img {
-      width: 60px;
-      height: 60px;
+    width: 60px;
+    height: 60px;
   }
 
   /*Achievements*/
 
 
   #item1 {
-      grid-column-start: 1;
+    grid-column-start: 1;
   }
 
   .AchCont {
-      font-size: 8px;
-      text-align: justify;
-      padding-left: 10px;
-      word-spacing: none;
+    font-size: 8px;
+    text-align: justify;
+    padding-left: 10px;
+    word-spacing: none;
   }
 
 
 
   .items h2 {
-      font-size: 15px;
-      padding-top: 2px;
+    font-size: 15px;
+    padding-top: 2px;
   }
 
 
   h1 {
-      padding-top: 10px;
+    padding-top: 10px;
   }
 
   .cont {
-      margin-left: 1px;
-      font-size: 10px;
-      text-align: left;
+    margin-left: 1px;
+    font-size: 10px;
+    text-align: left;
   }
 
   .hightlighted {
-      font-size: 9px;
-      font-weight: 700;
+    font-size: 9px;
+    font-weight: 700;
 
   }
 
 
   /*Projects*/
   .projImg {
-      width: 80px;
-      height: 80px;
+    width: 80px;
+    height: 80px;
   }
 
   .projName {
-      font-size: 15px;
-      padding-left: 0px;
+    font-size: 15px;
+    padding-left: 0px;
   }
 
   .p1 {
-      width: 25%;
-      margin: 4%;
+    width: 25%;
+    margin: 4%;
   }
 
   .projDes {
-      margin: 12px;
+    margin: 12px;
   }
 
   .projHead h1 {
-     
-      font-size: 85px;
+
+    font-size: 85px;
 
   }
 
@@ -2209,20 +2246,25 @@ img {
 
   /*Contact*/
   .form {
-      margin: 10%;
-      width: 80%;
-      margin-top: 10%;
-     
+    margin: 10%;
+    width: 80%;
+    margin-top: 10%;
+
   }
 
   .btn {
-      width: 50px;
+    width: 90%;
+  }
+
+
+  .send {
+    margin-left: 50%;
   }
 
 
   /*Connect with me*/
   .connLogo {
-      margin: auto;
+    margin: auto;
   }
 
 }
@@ -2232,43 +2274,43 @@ img {
   .Skill,
   .Skill1 {
 
-      width: 600px;
-      font-size: 20px;
-      height: 100px;
-      margin-left: 1px;
+    width: 600px;
+    font-size: 20px;
+    height: 100px;
+    margin-left: 1px;
   }
 
   .cont {
-      margin-left: 1px;
-      font-size: 15px;
-      text-align: left;
+    margin-left: 1px;
+    font-size: 15px;
+    text-align: left;
   }
 
   .hightlighted {
-      font-size: 14px;
-      font-weight: 700;
+    font-size: 14px;
+    font-weight: 700;
 
   }
 
   #skills {
-      margin: 20px;
+    margin: 20px;
   }
 
 
   model-viewer {
-      padding-top: 50px;
-      /*  width: 1500px;  */
-      height: 1400px;
-      size: 500px;
+    padding-top: 50px;
+    /*  width: 1500px;  */
+    height: 1400px;
+    size: 500px;
   }
 
   h1 {
-      padding-top: 70px;
+    padding-top: 70px;
   }
 
   .projHead h1 {
-      
-      font-size: 90px;
+
+    font-size: 90px;
 
   }
 
@@ -2279,186 +2321,209 @@ img {
 
   /*Intro*/
   .Card {
-      margin: 2px;
+    margin: 2px;
   }
 
   .Card #cIntro {
-      font-size: 60px;
+    font-size: 60px;
   }
 
   /*Skills*/
-  #skills {
-      grid-template-columns: 20% 20% 20% 15%;
-      grid-template-rows: 80px 500px 200px;
+
+  h4 {
+    font-size: 15px;
+  }
+
+  .Skill,
+  .Skill1,
+  .SkillO {
+    
+    font-size: 15px;
+    height: 80px;
+    margin-left: 1px;
+    width: 85%;
 
   }
 
-  #item-2 {
-      margin: 0px;
-      padding: 0px;
 
-      grid-column-start: 2;
-      grid-row-start: 3;
-
+  .SkillO{
+    margin-left: 10%;
   }
 
-  #item-3 {
-      margin: 0px;
-      padding: 0px;
 
-      grid-column-start: 3;
-      grid-row-start: 3;
+  /* Skills icon */
+
+  .iconUL li {
+    
+    
+    margin: 10px;
   }
-
-  .SkLogo,
-  .SkLogo img {
-      width: 50px;
-      height: 50px;
+  
+  
+  #iconD {
+  
+  
+    padding: 5%;
   }
-
+  
+  .iconUL li img {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    
+  }
+  
+  
+  .iconUL li img:hover{
+    height: 50px;
+    width: 50px;
+  
+  }
+  
 
   /*Achievements*/
   #Achievements {
-      grid-template-rows: 80px 280px 280px;
-      grid-template-columns: 1% 29% 29% 29% 1%;
-      gap: 2%;
+    grid-template-rows: 80px 280px 280px;
+    grid-template-columns: 1% 29% 29% 29% 1%;
+    gap: 2%;
   }
 
   #ach {
 
-      font-size: 50px;
-      font-weight: 300;
-      padding: 5px;
+    font-size: 50px;
+    font-weight: 300;
+    padding: 5px;
   }
 
   .items h2 {
-      font-size: 10px;
-      text-align: justify;
+    font-size: 10px;
+    text-align: justify;
   }
 
   .AchCont {
-      font-size: 7px;
+    font-size: 7px;
   }
 
 
   #item1 {
-      grid-column-start: 1;
+    grid-column-start: 1;
   }
 
 
 
   /*Project*/
   .projHead h3 {
-      font-size: 30px;
+    font-size: 30px;
 
   }
 
   .projHead h1 {
-      padding: 10px;
-      font-size: 55px;
+    padding: 10px;
+    font-size: 55px;
   }
 
   .projImg {
-      width: 70px;
-      height: 70px;
-      margin: 2px;
-      padding: 2px;
+    width: 70px;
+    height: 70px;
+    margin: 2px;
+    padding: 2px;
   }
 
   .projName {
-      font-size: 10px;
+    font-size: 10px;
   }
 
   .projDes {
-      margin: 2px;
+    margin: 2px;
   }
 
 
   /*Contact*/
   .mb-3 {
-      margin-top: 30px;
+    margin-top: 30px;
   }
 
   .btn {
-      width: 60px;
-      
+    width: 60px;
+
   }
 
   .form {
-      margin: auto;
-      width: 80%;
+    margin: auto;
+    width: 80%;
 
   }
 
   .connectHead {
-      padding: 5px;
+    padding: 5px;
+
+    font-size: 60px;
   }
 
-  .send{
-      margin-left: 50%;
+  .send {
+    margin-left: 200%;
   }
- 
+
 
   /*Connect*/
   .connLogo {
-      margin-left: 2px;
+    margin-left: 2px;
   }
 
   .transition1 {
-      font-size: 8px;
+    font-size: 8px;
   }
 
   .transition1:hover {
-      font-size: 10px;
+    font-size: 10px;
   }
 
   nav ul {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   #threewords {
-      font-size: 10px;
-      margin-top: 300px;
+    font-size: 10px;
+    margin-top: 300px;
   }
 
   #name {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   .logo {
-      width: 70px;
-      height: 70px;
+    width: 70px;
+    height: 70px;
   }
 
   model-viewer {
-      padding-top: 30px;
-      /*  width: 700px;*/
-      height: 1300px;
+    padding-top: 30px;
+    /*  width: 700px;*/
+    height: 1300px;
   }
 
   .Skill,
   .Skill1 {
-      width: 355px;
-      font-size: 20px;
-      height: 80px;
-      margin-left: 1px;
+    width: 355px;
+    font-size: 20px;
+    height: 80px;
+    margin-left: 1px;
 
   }
 
   h1 {
-      font-size: 40px;
-      padding-top: 150px;
+    font-size: 40px;
+    padding-top: 150px;
   }
 
   .cont {
-      margin-left: 1px;
-      font-size: 9px;
-      text-align: left;
+    margin-left: 1px;
+    font-size: 9px;
+    text-align: left;
   }
 
   .hightlighted {
-      font-size: 8px;
-      font-weight: 700;
+    font-size: 8px;
+    font-weight: 700;
   }
 }
-
