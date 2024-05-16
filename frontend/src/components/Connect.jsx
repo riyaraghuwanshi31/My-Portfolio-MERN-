@@ -9,7 +9,7 @@ const Connect = () => {
 
             <ul id='connul'>
                 <li>
-                    <a href="#">
+                    <a href="https://github.com/riyaraghuwanshi31 ">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -28,7 +28,7 @@ const Connect = () => {
                 </li>
                
                 <li>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/riya-raghuwanshi-92185624b">
                         <span></span>
                         <span></span>
                         <span></span>
