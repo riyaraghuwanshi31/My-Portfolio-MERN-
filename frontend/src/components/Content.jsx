@@ -41,9 +41,9 @@ const Content = () => {
         <div className="Card">
           <h2 id="cIntro">Introduction</h2>
           <p id="cPara">
-            I'm a dedicated Java and frontend developer driven
+            I'm a dedicated frontend and backend developer driven
             by a profound passion for technology. With a strong
-            foundation in Java, data structures, and algorithms,
+            foundation in MERN Stack, Java, data structures, and algorithms,
             I thrive on the challenges of problem-solving. My
             curiosity fuels my constant exploration of new technologies,
             pushing me to expand my technical horizons. I actively engage
