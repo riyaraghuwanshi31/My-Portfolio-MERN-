@@ -602,7 +602,7 @@ img {
 .sk h1 {
   margin: 0;
   color: rgba(255, 241, 241, 0.25);
-  background-image: url("../public/projBg7.avif");
+  background-image: url("projBg7.avif");
   background-repeat: repeat;
   -webkit-background-clip: text;
   animation: animate 15s ease-in-out infinite;
