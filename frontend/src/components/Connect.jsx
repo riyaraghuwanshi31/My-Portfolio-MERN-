@@ -17,15 +17,7 @@ const Connect = () => {
                         <span class="fa fa-github"></span>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span class="fa fa-twitter"></span>
-                    </a>
-                </li>
+                
                
                 <li>
                     <a href="https://www.linkedin.com/in/riya-raghuwanshi-92185624b">
