@@ -23,7 +23,7 @@ const Content = () => {
               </h5>
             </div>
 
-            
+
 
           </nav>
         </header>
@@ -31,25 +31,17 @@ const Content = () => {
         <main>
           <p id="threewords"> <a id="name"> Hello! I'm Riya Raghuwanshi </a> <br>
           </br>  Welcome to my portfolio! <br></br>
-            I'm a passionate developer with proficiency
-            <br></br> in Java programming and front-end development.
+            I'm a passionate developer proficient in <br></br> the  MERN stack and a skilled Java programmer.
           </p>
         </main>
       </div>
 
       <section id='intro'>
         <div className="Card">
-          <h2 id="cIntro">Introduction</h2>
+          <h2 id="cIntro">About me</h2>
           <p id="cPara">
-            I'm a dedicated frontend and backend developer driven
-            by a profound passion for technology. With a strong
-            foundation in MERN Stack, Java, data structures, and algorithms,
-            I thrive on the challenges of problem-solving. My
-            curiosity fuels my constant exploration of new technologies,
-            pushing me to expand my technical horizons. I actively engage
-            in programming contests to sharpen my skills and boost my confidence.
-            I believe in the power of continuous learning and innovation, and
-            I'm excited to share this journey with you.
+            I am a versatile full-stack developer proficient in the MERN stack and a skilled Java programmer with expertise in Data Structures and Algorithms (DSA). My proficiency in Java and DSA enables me to develop efficient and scalable solutions. With a strong foundation in both front-end and back-end development, I thrive on the challenges of problem-solving and continuously exploring new technologies to expand my technical horizons
+
           </p>
         </div>
       </section>
@@ -65,9 +57,9 @@ const Content = () => {
             <div class="Skill">
               <h4>Java</h4>
               <div class="cont">
-                I possess extensive proficiency in Java and Data Structures <br></br>
-                and Algorithms (DSA), bolstered by my certification from Apna College's <br></br>
-                Alpha batch program, which encompasses a comprehensive<br></br> Java + DSA curriculum.
+                I possess extensive proficiency in Java and Data Structures
+                and Algorithms (DSA), <br></br> bolstered by my certification from Apna College's
+                Alpha batch program, which <br></br> encompasses a comprehensive Java + DSA curriculum.
               </div>
             </div>
 
@@ -88,10 +80,8 @@ const Content = () => {
               <h4>HTML and CSS</h4>
               <div class="cont">
                 I possess a solid foundation in HTML and CSS,which I've effectively <br></br>
-                demonstrated through various project showcases. My web designs are <br></br> known
-                for their visually appealing and engaging aesthetics. Additionally,
-                <h3 class="hightlighted"> I have acquired proficiency in Bootstrap to enhance my web
-                  development <br></br> capabilities. </h3>
+                demonstrated through various project showcases.
+                <h3 class="hightlighted"> I've mastered Bootstrap to enhance my web development skills. </h3>
               </div>
             </div>
 
@@ -107,6 +97,22 @@ const Content = () => {
 
 
 
+
+
+            <div class="Skill">
+              <h4>Node.js</h4>
+              <div class="cont">
+                I am proficient in Node.js, using it as a backend language to build robust <br></br> server-side applications. Node.js is a versatile runtime environment that <br></br>  allows me to create efficient and  scalable backend solutions.
+              </div>
+            </div>
+
+
+            <div class="SkillO">
+              <h4>Express.js</h4>
+              <div class="cont">
+                I'm highly proficient in Express.js, a Node.js framework used to develop<br></br> scalable  web applications. I leverage Express.js for efficient routing, <br></br>  middleware management, and other essential backend functionalities.
+              </div>
+            </div>
 
 
             <div class="Skill">
@@ -127,7 +133,7 @@ const Content = () => {
               <div class="cont">
 
 
-                I have a foundational understanding of React and am currently focused on <br></br> deepening my knowledge. I am actively engaged in various React projects to <br></br> enhance my skills.
+                I have a foundational understanding of React and am currently focused on <br></br> deepening my knowledge. I am actively engaged in various React <br></br>  projects to enhance my skills.
               </div>
             </div>
 
@@ -149,6 +155,8 @@ const Content = () => {
 
             <div>
               <ul className='iconUL' id='ul2'>
+                <li><img src="nodejs.png" alt="" /></li>
+                <li><img src="express.png" alt="" /></li>
                 <li><img src="mongo.png" alt="" /></li>
                 <li><img src="react.png" alt="" /></li>
                 <li><img src="C++L.png" alt="" /></li>
@@ -178,40 +186,45 @@ const Content = () => {
         </div>
 
         <div className="items" id="item2">
+          <h2>GSSOC '24 contributor</h2>
+          <div className="AchCont">
+            As a passionate and proactive contributor to the GirlScript Summer of Code 2024 (GSSOC '24), I had the opportunity to work on impactful open-source projects and collaborate with a diverse community of developers.
+          </div>
+        </div>
+        <div className="items" id="item3">
           <h2>AIR 76 in Code combat 3.0</h2>
           <div className="AchCont">
             I had the opportunity to participate in Coding Ninja's
             program, where I encountered challenging DSA problems
             that required a deep understanding of advanced data structures
-            and algorithms. <br></br> <br></br>Despite the complexity of these problems,
-            I successfully tackled each one, leveraging my problem-solving
+            and algorithms. I leveraging my problem-solving
             skills and expertise in DSA concepts to overcome the challenges.
           </div>
         </div>
-        <div className="items" id="item3">
+        <div className="items" id="item4">
           <h2>Selected in Abhyuday IIT Bombay’s Social Fest</h2>
           <div className="AchCont">
             I pitched a concept focused on women's empowerment during my participation
-            in Abhyuday, and our proposal received approval. <br></br> <br></br>
+            in Abhyuday, and our proposal received approval.
             As the team leader,I devised a plan to promote homemade food and offer meal services to those
             in need.
-            <br></br> <br></br>
+            <br></br><br></br>
             For our upcoming project, my team and I are excited to embark on the development
             of a dedicated website to support this initiative.
           </div>
         </div>
-        <div className="items" id="item4">
+        <div className="items" id="item5">
           <h2>Java and DSA certification</h2>
 
           <div className="AchCont">
-            I completed the Java and DSA course through Apna College, a reputable platform. <br></br> <br></br>
+            I completed the Java and DSA course through Apna College, a reputable platform.
             This experience significantly enhanced my coding skills. <br></br> <br></br>
             Throughout the course, I successfully tackled numerous DSA challenges and comprehensively
             mastered all the key concepts.
           </div>
 
         </div>
-        <div className="items" id="item5">
+        <div className="items" id="item6">
           <h2>Front-end web development Certificate by DevTown</h2>
 
           <div className="AchCont">
@@ -220,15 +233,7 @@ const Content = () => {
 
           </div>
         </div>
-        <div className="items" id="item6">
-          <h2>Pregrad Campus Ambassador</h2>
 
-          <div className="AchCont">
-            In addition to my technical certifications,
-            I also received recognition from Pregrad as a Campus Ambassador. <br></br> <br></br>
-            I successfully completed a one-month internship as a Marketing Intern at Pregrad.
-          </div>
-        </div>
         <div className="items" id="item7">
           <h2>C++ Certification</h2>
 
@@ -267,7 +272,7 @@ const Content = () => {
                 <img src="/APNA DABBA logo smal.png" alt="Image" className="projImg"></img>
               </div>
               <div className="projDes">
-                <h2> <a href="https://riyaraghuwanshi31.github.io/Apna-Dabba-Repl/"  target= "_blank" className="projName" >Apna Dabba</a></h2>
+                <h2> <a href="https://riyaraghuwanshi31.github.io/Apna-Dabba-Repl/" target="_blank" className="projName" >Apna Dabba</a></h2>
                 <div className="detail"></div>
 
               </div>
@@ -276,13 +281,17 @@ const Content = () => {
 
             <div className="p1">
               <div className="Pimg">
-                <img src="/logo.png" alt="Image" className="projImg" id="apnacollege"></img>
+                <img src="/weatherapi.png" alt="Image" className="projImg"></img>
               </div>
               <div className="projDes">
-                <h2><a href="https://riyaraghuwanshi31.github.io/Safe-Campus-360/" target= "_blank" className="projName">Safe Campus 360</a></h2>
+                <h2> <a href="https://riyaraghuwanshi31.github.io/Weather-App/" target="_blank" className="projName" >Weather App</a></h2>
+                <div className="detail"></div>
+
               </div>
+
             </div>
 
+            
 
 
 
@@ -292,12 +301,23 @@ const Content = () => {
           <div className="projFlex">
 
 
+          <div className="p1">
+              <div className="Pimg">
+                <img src="/logo.png" alt="Image" className="projImg" id="apnacollege"></img>
+              </div>
+              <div className="projDes">
+                <h2><a href="https://riyaraghuwanshi31.github.io/Safe-Campus-360/" target="_blank" className="projName">Safe Campus 360</a></h2>
+              </div>
+            </div>
+
+
+
             <div className="p1">
               <div className="Pimg">
                 <img src="/final logo apna college.png" alt="Image" className="projImg" id="apnacollege"></img>
               </div>
               <div className="projDes">
-                <h2><a href="https://riyaraghuwanshi31.github.io/Apna-College-Website-Educational-Website-/  " target= "_blank" className="projName">Educational
+                <h2><a href="https://riyaraghuwanshi31.github.io/Apna-College-Website-Educational-Website-/  " target="_blank" className="projName">Educational
                   Website</a></h2>
 
 
@@ -310,7 +330,7 @@ const Content = () => {
                 <img src="/onlineSite.png" alt="Image" className="projImg"></img>
               </div>
               <div className="projDes">
-                <h2><a href=""  target= "_blank"
+                <h2><a href="" target="_blank"
                   className="projName">Online shopping website</a></h2>
               </div>
             </div>
@@ -332,7 +352,11 @@ const Content = () => {
       </section>
 
 
+
+
     </div >
+
+
 
   )
 }
